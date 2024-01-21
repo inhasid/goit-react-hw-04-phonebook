@@ -78,8 +78,7 @@ const Phonebook = () => {
                 <FilterInput onChange={changeFilter} value={filter} />
                 <ContactList items={items} deleteContact={deleteContact} />
             </div>
-        )
-    
+        )  
 }
 
 export default Phonebook;
